@@ -1,0 +1,6 @@
+framework module Pods_CGLPopViewTests {
+  umbrella header "Pods-CGLPopViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

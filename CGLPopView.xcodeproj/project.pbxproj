@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212A60742B9015DE00E66366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60732B9015DE00E66366 /* AppDelegate.m */; };
+		212A60772B9015DE00E66366 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60762B9015DE00E66366 /* SceneDelegate.m */; };
+		212A607A2B9015DE00E66366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60792B9015DE00E66366 /* ViewController.m */; };
+		212A607D2B9015DE00E66366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212A607B2B9015DE00E66366 /* Main.storyboard */; };
+		212A607F2B9015E600E66366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212A607E2B9015E600E66366 /* Assets.xcassets */; };
+		212A60822B9015E600E66366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212A60802B9015E600E66366 /* LaunchScreen.storyboard */; };
+		212A60852B9015E600E66366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60842B9015E600E66366 /* main.m */; };
+		212A608F2B9015E600E66366 /* CGLPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A608E2B9015E600E66366 /* CGLPopViewTests.m */; };
+		212A60992B9015E600E66366 /* CGLPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60982B9015E600E66366 /* CGLPopViewUITests.m */; };
+		212A609B2B9015E600E66366 /* CGLPopViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A609A2B9015E600E66366 /* CGLPopViewUITestsLaunchTests.m */; };
+		212A60AF2B90623E00E66366 /* StockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60AE2B90623E00E66366 /* StockInfoView.m */; };
+		212A60B22B90646400E66366 /* StockItemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60B12B90646400E66366 /* StockItemInfoView.m */; };
+		212A60B82B90D79F00E66366 /* PopContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60B72B90D79F00E66366 /* PopContainerVC.m */; };
+		212A60BB2B90E4F300E66366 /* TopInstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60BA2B90E4F300E66366 /* TopInstitution.m */; };
+		212A60BE2B914AC500E66366 /* ButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60BD2B914AC500E66366 /* ButtonContainerView.m */; };
+		212A60C12B914BFF00E66366 /* ButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A60C02B914BFF00E66366 /* ButtonItem.m */; };
+		21CF5F5E2B91647200B9ADCC /* BottomPotentialStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF5F5D2B91647200B9ADCC /* BottomPotentialStock.m */; };
+		2601C80937CA8B66D65F13BE /* Pods_CGLPopViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6985ACF06B22748F1BD1A8B /* Pods_CGLPopViewTests.framework */; };
+		45CA050CF1F08EE0D6047A37 /* Pods_CGLPopView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261AC6D75C7A3747D1B29522 /* Pods_CGLPopView.framework */; };
+		E11ABA054D5188070ACF24B5 /* Pods_CGLPopView_CGLPopViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE7097191E43842114CEA78 /* Pods_CGLPopView_CGLPopViewUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212A608B2B9015E600E66366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212A60672B9015DE00E66366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212A606E2B9015DE00E66366;
+			remoteInfo = CGLPopView;
+		};
+		212A60952B9015E600E66366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212A60672B9015DE00E66366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212A606E2B9015DE00E66366;
+			remoteInfo = CGLPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CE7097191E43842114CEA78 /* Pods_CGLPopView_CGLPopViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLPopView_CGLPopViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E847E7358CDFBD894C2102B /* Pods-CGLPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopView.debug.xcconfig"; path = "Target Support Files/Pods-CGLPopView/Pods-CGLPopView.debug.xcconfig"; sourceTree = "<group>"; };
+		212A606F2B9015DE00E66366 /* CGLPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGLPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A60722B9015DE00E66366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		212A60732B9015DE00E66366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		212A60752B9015DE00E66366 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		212A60762B9015DE00E66366 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		212A60782B9015DE00E66366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		212A60792B9015DE00E66366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		212A607C2B9015DE00E66366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212A607E2B9015E600E66366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212A60812B9015E600E66366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212A60832B9015E600E66366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212A60842B9015E600E66366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		212A608A2B9015E600E66366 /* CGLPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGLPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A608E2B9015E600E66366 /* CGLPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGLPopViewTests.m; sourceTree = "<group>"; };
+		212A60942B9015E600E66366 /* CGLPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGLPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A60982B9015E600E66366 /* CGLPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGLPopViewUITests.m; sourceTree = "<group>"; };
+		212A609A2B9015E600E66366 /* CGLPopViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGLPopViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		212A60AD2B90623E00E66366 /* StockInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockInfoView.h; sourceTree = "<group>"; };
+		212A60AE2B90623E00E66366 /* StockInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockInfoView.m; sourceTree = "<group>"; };
+		212A60B02B90646400E66366 /* StockItemInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockItemInfoView.h; sourceTree = "<group>"; };
+		212A60B12B90646400E66366 /* StockItemInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockItemInfoView.m; sourceTree = "<group>"; };
+		212A60B62B90D79F00E66366 /* PopContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopContainerVC.h; sourceTree = "<group>"; };
+		212A60B72B90D79F00E66366 /* PopContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopContainerVC.m; sourceTree = "<group>"; };
+		212A60B92B90E4F200E66366 /* TopInstitution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopInstitution.h; sourceTree = "<group>"; };
+		212A60BA2B90E4F300E66366 /* TopInstitution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopInstitution.m; sourceTree = "<group>"; };
+		212A60BC2B914AC500E66366 /* ButtonContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonContainerView.h; sourceTree = "<group>"; };
+		212A60BD2B914AC500E66366 /* ButtonContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContainerView.m; sourceTree = "<group>"; };
+		212A60BF2B914BFF00E66366 /* ButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonItem.h; sourceTree = "<group>"; };
+		212A60C02B914BFF00E66366 /* ButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonItem.m; sourceTree = "<group>"; };
+		21CF5F5C2B91647200B9ADCC /* BottomPotentialStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomPotentialStock.h; sourceTree = "<group>"; };
+		21CF5F5D2B91647200B9ADCC /* BottomPotentialStock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomPotentialStock.m; sourceTree = "<group>"; };
+		261AC6D75C7A3747D1B29522 /* Pods_CGLPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CADA387C3F856D2BB9087A /* Pods-CGLPopViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopViewTests.debug.xcconfig"; path = "Target Support Files/Pods-CGLPopViewTests/Pods-CGLPopViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42D3A904587E0627600B03CE /* Pods-CGLPopView-CGLPopViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopView-CGLPopViewUITests.release.xcconfig"; path = "Target Support Files/Pods-CGLPopView-CGLPopViewUITests/Pods-CGLPopView-CGLPopViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52E3FF49547F412797744799 /* Pods-CGLPopView-CGLPopViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopView-CGLPopViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-CGLPopView-CGLPopViewUITests/Pods-CGLPopView-CGLPopViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93708CD2A1CC4F6D1D30CBC2 /* Pods-CGLPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopView.release.xcconfig"; path = "Target Support Files/Pods-CGLPopView/Pods-CGLPopView.release.xcconfig"; sourceTree = "<group>"; };
+		EB85D359B12C70C57E5E6FBF /* Pods-CGLPopViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGLPopViewTests.release.xcconfig"; path = "Target Support Files/Pods-CGLPopViewTests/Pods-CGLPopViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6985ACF06B22748F1BD1A8B /* Pods_CGLPopViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGLPopViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212A606C2B9015DE00E66366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA050CF1F08EE0D6047A37 /* Pods_CGLPopView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60872B9015E600E66366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2601C80937CA8B66D65F13BE /* Pods_CGLPopViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60912B9015E600E66366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11ABA054D5188070ACF24B5 /* Pods_CGLPopView_CGLPopViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212A60662B9015DE00E66366 = {
+			isa = PBXGroup;
+			children = (
+				212A60712B9015DE00E66366 /* CGLPopView */,
+				212A608D2B9015E600E66366 /* CGLPopViewTests */,
+				212A60972B9015E600E66366 /* CGLPopViewUITests */,
+				212A60702B9015DE00E66366 /* Products */,
+				EAF054C799A3DE2CA10A7FB7 /* Pods */,
+				214C66D6C9251404FEC23B2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		212A60702B9015DE00E66366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212A606F2B9015DE00E66366 /* CGLPopView.app */,
+				212A608A2B9015E600E66366 /* CGLPopViewTests.xctest */,
+				212A60942B9015E600E66366 /* CGLPopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212A60712B9015DE00E66366 /* CGLPopView */ = {
+			isa = PBXGroup;
+			children = (
+				212A60722B9015DE00E66366 /* AppDelegate.h */,
+				212A60732B9015DE00E66366 /* AppDelegate.m */,
+				212A60752B9015DE00E66366 /* SceneDelegate.h */,
+				212A60762B9015DE00E66366 /* SceneDelegate.m */,
+				212A60782B9015DE00E66366 /* ViewController.h */,
+				212A60792B9015DE00E66366 /* ViewController.m */,
+				21CF5F5F2B916C0A00B9ADCC /* PopupKit */,
+				21CF5F612B916C5E00B9ADCC /* TopInstitution */,
+				21CF5F602B916C2B00B9ADCC /* BottomPotentialStock */,
+				21CF5F622B916C8400B9ADCC /* Views */,
+				212A607B2B9015DE00E66366 /* Main.storyboard */,
+				212A607E2B9015E600E66366 /* Assets.xcassets */,
+				212A60802B9015E600E66366 /* LaunchScreen.storyboard */,
+				212A60832B9015E600E66366 /* Info.plist */,
+				212A60842B9015E600E66366 /* main.m */,
+			);
+			path = CGLPopView;
+			sourceTree = "<group>";
+		};
+		212A608D2B9015E600E66366 /* CGLPopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				212A608E2B9015E600E66366 /* CGLPopViewTests.m */,
+			);
+			path = CGLPopViewTests;
+			sourceTree = "<group>";
+		};
+		212A60972B9015E600E66366 /* CGLPopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				212A60982B9015E600E66366 /* CGLPopViewUITests.m */,
+				212A609A2B9015E600E66366 /* CGLPopViewUITestsLaunchTests.m */,
+			);
+			path = CGLPopViewUITests;
+			sourceTree = "<group>";
+		};
+		214C66D6C9251404FEC23B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261AC6D75C7A3747D1B29522 /* Pods_CGLPopView.framework */,
+				1CE7097191E43842114CEA78 /* Pods_CGLPopView_CGLPopViewUITests.framework */,
+				F6985ACF06B22748F1BD1A8B /* Pods_CGLPopViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21CF5F5F2B916C0A00B9ADCC /* PopupKit */ = {
+			isa = PBXGroup;
+			children = (
+				212A60B62B90D79F00E66366 /* PopContainerVC.h */,
+				212A60B72B90D79F00E66366 /* PopContainerVC.m */,
+			);
+			path = PopupKit;
+			sourceTree = "<group>";
+		};
+		21CF5F602B916C2B00B9ADCC /* BottomPotentialStock */ = {
+			isa = PBXGroup;
+			children = (
+				21CF5F5C2B91647200B9ADCC /* BottomPotentialStock.h */,
+				21CF5F5D2B91647200B9ADCC /* BottomPotentialStock.m */,
+			);
+			path = BottomPotentialStock;
+			sourceTree = "<group>";
+		};
+		21CF5F612B916C5E00B9ADCC /* TopInstitution */ = {
+			isa = PBXGroup;
+			children = (
+				212A60B92B90E4F200E66366 /* TopInstitution.h */,
+				212A60BA2B90E4F300E66366 /* TopInstitution.m */,
+			);
+			path = TopInstitution;
+			sourceTree = "<group>";
+		};
+		21CF5F622B916C8400B9ADCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21CF5F632B916CF800B9ADCC /* ButtonContainerView */,
+				21CF5F642B916D1500B9ADCC /* StockInfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21CF5F632B916CF800B9ADCC /* ButtonContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				212A60BC2B914AC500E66366 /* ButtonContainerView.h */,
+				212A60BD2B914AC500E66366 /* ButtonContainerView.m */,
+				212A60BF2B914BFF00E66366 /* ButtonItem.h */,
+				212A60C02B914BFF00E66366 /* ButtonItem.m */,
+			);
+			path = ButtonContainerView;
+			sourceTree = "<group>";
+		};
+		21CF5F642B916D1500B9ADCC /* StockInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				212A60AD2B90623E00E66366 /* StockInfoView.h */,
+				212A60AE2B90623E00E66366 /* StockInfoView.m */,
+				212A60B02B90646400E66366 /* StockItemInfoView.h */,
+				212A60B12B90646400E66366 /* StockItemInfoView.m */,
+			);
+			path = StockInfoView;
+			sourceTree = "<group>";
+		};
+		EAF054C799A3DE2CA10A7FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E847E7358CDFBD894C2102B /* Pods-CGLPopView.debug.xcconfig */,
+				93708CD2A1CC4F6D1D30CBC2 /* Pods-CGLPopView.release.xcconfig */,
+				52E3FF49547F412797744799 /* Pods-CGLPopView-CGLPopViewUITests.debug.xcconfig */,
+				42D3A904587E0627600B03CE /* Pods-CGLPopView-CGLPopViewUITests.release.xcconfig */,
+				41CADA387C3F856D2BB9087A /* Pods-CGLPopViewTests.debug.xcconfig */,
+				EB85D359B12C70C57E5E6FBF /* Pods-CGLPopViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212A606E2B9015DE00E66366 /* CGLPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212A609E2B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopView" */;
+			buildPhases = (
+				CEA3804E0FE8EC1F48474FB5 /* [CP] Check Pods Manifest.lock */,
+				212A606B2B9015DE00E66366 /* Sources */,
+				212A606C2B9015DE00E66366 /* Frameworks */,
+				212A606D2B9015DE00E66366 /* Resources */,
+				E17C05BF6635C7E3E35CB5B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGLPopView;
+			productName = CGLPopView;
+			productReference = 212A606F2B9015DE00E66366 /* CGLPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212A60892B9015E600E66366 /* CGLPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212A60A12B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopViewTests" */;
+			buildPhases = (
+				35FE47A9CFB70031E2D028B5 /* [CP] Check Pods Manifest.lock */,
+				212A60862B9015E600E66366 /* Sources */,
+				212A60872B9015E600E66366 /* Frameworks */,
+				212A60882B9015E600E66366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212A608C2B9015E600E66366 /* PBXTargetDependency */,
+			);
+			name = CGLPopViewTests;
+			productName = CGLPopViewTests;
+			productReference = 212A608A2B9015E600E66366 /* CGLPopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212A60932B9015E600E66366 /* CGLPopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212A60A42B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopViewUITests" */;
+			buildPhases = (
+				F8FD4D4C7F8E3D344E9B2260 /* [CP] Check Pods Manifest.lock */,
+				212A60902B9015E600E66366 /* Sources */,
+				212A60912B9015E600E66366 /* Frameworks */,
+				212A60922B9015E600E66366 /* Resources */,
+				2F9A58B42DDD9ED02E38801E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212A60962B9015E600E66366 /* PBXTargetDependency */,
+			);
+			name = CGLPopViewUITests;
+			productName = CGLPopViewUITests;
+			productReference = 212A60942B9015E600E66366 /* CGLPopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212A60672B9015DE00E66366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					212A606E2B9015DE00E66366 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					212A60892B9015E600E66366 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 212A606E2B9015DE00E66366;
+					};
+					212A60932B9015E600E66366 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 212A606E2B9015DE00E66366;
+					};
+				};
+			};
+			buildConfigurationList = 212A606A2B9015DE00E66366 /* Build configuration list for PBXProject "CGLPopView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212A60662B9015DE00E66366;
+			productRefGroup = 212A60702B9015DE00E66366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212A606E2B9015DE00E66366 /* CGLPopView */,
+				212A60892B9015E600E66366 /* CGLPopViewTests */,
+				212A60932B9015E600E66366 /* CGLPopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212A606D2B9015DE00E66366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A60822B9015E600E66366 /* LaunchScreen.storyboard in Resources */,
+				212A607F2B9015E600E66366 /* Assets.xcassets in Resources */,
+				212A607D2B9015DE00E66366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60882B9015E600E66366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60922B9015E600E66366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9A58B42DDD9ED02E38801E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGLPopView-CGLPopViewUITests/Pods-CGLPopView-CGLPopViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGLPopView-CGLPopViewUITests/Pods-CGLPopView-CGLPopViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CGLPopView-CGLPopViewUITests/Pods-CGLPopView-CGLPopViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35FE47A9CFB70031E2D028B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGLPopViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA3804E0FE8EC1F48474FB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGLPopView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17C05BF6635C7E3E35CB5B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGLPopView/Pods-CGLPopView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGLPopView/Pods-CGLPopView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CGLPopView/Pods-CGLPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FD4D4C7F8E3D344E9B2260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGLPopView-CGLPopViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212A606B2B9015DE00E66366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A60B22B90646400E66366 /* StockItemInfoView.m in Sources */,
+				212A60B82B90D79F00E66366 /* PopContainerVC.m in Sources */,
+				212A60C12B914BFF00E66366 /* ButtonItem.m in Sources */,
+				212A60BB2B90E4F300E66366 /* TopInstitution.m in Sources */,
+				212A607A2B9015DE00E66366 /* ViewController.m in Sources */,
+				212A60742B9015DE00E66366 /* AppDelegate.m in Sources */,
+				212A60852B9015E600E66366 /* main.m in Sources */,
+				212A60BE2B914AC500E66366 /* ButtonContainerView.m in Sources */,
+				212A60AF2B90623E00E66366 /* StockInfoView.m in Sources */,
+				212A60772B9015DE00E66366 /* SceneDelegate.m in Sources */,
+				21CF5F5E2B91647200B9ADCC /* BottomPotentialStock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60862B9015E600E66366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A608F2B9015E600E66366 /* CGLPopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212A60902B9015E600E66366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A609B2B9015E600E66366 /* CGLPopViewUITestsLaunchTests.m in Sources */,
+				212A60992B9015E600E66366 /* CGLPopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212A608C2B9015E600E66366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212A606E2B9015DE00E66366 /* CGLPopView */;
+			targetProxy = 212A608B2B9015E600E66366 /* PBXContainerItemProxy */;
+		};
+		212A60962B9015E600E66366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212A606E2B9015DE00E66366 /* CGLPopView */;
+			targetProxy = 212A60952B9015E600E66366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212A607B2B9015DE00E66366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212A607C2B9015DE00E66366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212A60802B9015E600E66366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212A60812B9015E600E66366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212A609C2B9015E600E66366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		212A609D2B9015E600E66366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212A609F2B9015E600E66366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E847E7358CDFBD894C2102B /* Pods-CGLPopView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FDA5J2V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CGLPopView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212A60A02B9015E600E66366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93708CD2A1CC4F6D1D30CBC2 /* Pods-CGLPopView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FDA5J2V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CGLPopView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		212A60A22B9015E600E66366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CADA387C3F856D2BB9087A /* Pods-CGLPopViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CGL.CGLPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGLPopView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CGLPopView";
+			};
+			name = Debug;
+		};
+		212A60A32B9015E600E66366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB85D359B12C70C57E5E6FBF /* Pods-CGLPopViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CGL.CGLPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGLPopView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CGLPopView";
+			};
+			name = Release;
+		};
+		212A60A52B9015E600E66366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E3FF49547F412797744799 /* Pods-CGLPopView-CGLPopViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CGL.CGLPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CGLPopView;
+			};
+			name = Debug;
+		};
+		212A60A62B9015E600E66366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D3A904587E0627600B03CE /* Pods-CGLPopView-CGLPopViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CGL.CGLPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CGLPopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212A606A2B9015DE00E66366 /* Build configuration list for PBXProject "CGLPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A609C2B9015E600E66366 /* Debug */,
+				212A609D2B9015E600E66366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212A609E2B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A609F2B9015E600E66366 /* Debug */,
+				212A60A02B9015E600E66366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212A60A12B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A60A22B9015E600E66366 /* Debug */,
+				212A60A32B9015E600E66366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212A60A42B9015E600E66366 /* Build configuration list for PBXNativeTarget "CGLPopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A60A52B9015E600E66366 /* Debug */,
+				212A60A62B9015E600E66366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212A60672B9015DE00E66366 /* Project object */;
+}
