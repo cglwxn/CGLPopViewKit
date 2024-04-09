@@ -30,10 +30,6 @@
     return @"顶部机构";
 }
 
-- (CGFloat)popupHeight {
-    return 450;
-}
-
 - (void)setupViews:(UIView *)containerView {
     containerView.backgroundColor = UIColor.whiteColor;
     

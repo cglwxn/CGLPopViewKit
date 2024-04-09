@@ -33,10 +33,6 @@
     return @"底部潜龙";
 }
 
-- (CGFloat)popupHeight {
-    return 450;
-}
-
 - (void)setupViews:(UIView *)containerView {
     containerView.backgroundColor = UIColor.whiteColor;
     

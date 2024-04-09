@@ -55,7 +55,7 @@
 }
 
 - (void)setupConfigs {
-    self.popupHeigh = [self.delegate respondsToSelector:@selector(popupHeight)] ? [self.delegate popupHeight] : 500;
+    self.popupHeigh = [UIScreen mainScreen].bounds.size.height;
     self.popupView = [self.delegate containerView];
     
     if ([self.delegate respondsToSelector:@selector(centerTitle)]) {

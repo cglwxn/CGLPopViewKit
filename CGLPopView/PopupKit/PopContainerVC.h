@@ -28,9 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 点击“更多时”调用的方法
 - (void)more;
 
-/// pop up之前popup view底部距离present vc底部的距离，如果未指定，则默认500
-- (CGFloat)popupHeight;
-
 /// popup view顶部中间的标题。默认没有
 - (NSString *)centerTitle;
 
