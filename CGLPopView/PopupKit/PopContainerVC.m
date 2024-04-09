@@ -127,7 +127,6 @@
     [self.popupView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.cancelBtn.mas_bottom);
         make.bottom.leading.trailing.equalTo(self.containerView);
-//        make.leading.trailing.bottom.equalTo(self)
     }];
 }
 
@@ -167,8 +166,6 @@
     if (!_containerView) {
         _containerView = [[UIView alloc] initWithFrame:CGRectZero];
         _containerView.backgroundColor = UIColor.whiteColor;
-//        _containerView.layer.cornerRadius = 18;
-        
     }
     return _containerView;
 }

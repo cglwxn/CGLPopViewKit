@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) UIStackView *btnStackView;
 @property (nonatomic, strong) NSArray <ButtonItem *>* buttons;
-@property (nonatomic, strong) NSMutableArray <ButtonItem *>* buttons1;
 
 @end
 
@@ -45,9 +44,7 @@
     [self.btnStackView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
-    
-    [self.buttons1 addObject:@"11"];
-    
+        
     for (int i = 0; i < self.buttons.count; i ++) {
         ButtonItem *buttonItem = self.buttons[i];
         [buttonItem mas_makeConstraints:^(MASConstraintMaker *make) {
