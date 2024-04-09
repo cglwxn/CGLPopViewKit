@@ -10,7 +10,7 @@
 
 @interface PopContainerVC ()
 
-@property (nonatomic, strong) id<PopContainerVCDelegate> delegate;
+@property (nonatomic, weak) id<PopContainerVCDelegate> delegate;
 @property (nonatomic, assign) CGFloat popupHeigh;
 
 @property (nonatomic, strong) UIView *containerView;
